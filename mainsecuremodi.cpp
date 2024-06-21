@@ -1,10 +1,10 @@
-/*////Shri Gneshayeh Namah/////
-******with the name of god*********
+/**
 *Project on Management the record or Student Marks for a Institute
 * contains two class 1.student 2.admin
 **student class relate to the all task perform on to generate marksheet and management of data
 **admin class relate to provide authenticity to the user of this app
-WORK ON PROGRESS, there in now continous modification,updation and maintinance is required*/
+WORK ON PROGRESS, there in now continous modification,updation and maintinance is required
+*/
 
 #include <iostream>
 #include <conio.h>
@@ -28,8 +28,7 @@ void menu1();
 void secureLogin();
 //void signup();
 
-class student
-{
+class student {
 public:
 	long roll;		  //Roll Number or the Student
 	char name[20];	  //Full Name
